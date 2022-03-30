@@ -6,7 +6,7 @@
     <string name="pria">Pria</string>
     <string name="jumlah_barang">Jumlah Barang</string>
     <string name="cancel">Cancel</string>
-    <string name="prosees">Prosees</string>
+    <string name="proses">Proses</string>
     <string name="windows_phone">Windows Phone</string>
     <string name="iphone">Iphone</string>
     <string name="perempuan">Perempuan</string>
@@ -16,4 +16,19 @@
     <string name="biasa">Biasa</string>
     <string name="nama_barang">Nama Barang</string>
     <string name="android">Android</string>
+    <string name="selamat">Nota Transaksi</string>
+    <string name="TipeMember">Tipe Member : Gold</string>
+    <string name="NamaPelangganView">Nama Pelanggan :</string>
+    <string name="JenisKelaminView">Jenis Kelamin :</string>
+    <string name="AlamatPelangganView">Alamat Pelanggan :</string>
+    <string name="NamaBarangView">Nama Barang :</string>
+    <string name="KodeBarangView">Kode Barang :</string>
+    <string name="JumlahBarangView">Jumlah Barang :</string>
+    <string name="HargaBarangView">Harga :</string>
+    <string name="TotalHargaView">Total Harga :</string>
+    <string name="DiscView">Discount Harga :</string>
+    <string name="DiscMemberView">Discount Member :</string>
+    <string name="JumlahBayarView">Jumlah Bayar :</string>
+    <string name="Penutup">Terimakasih sudah berbelanja</string>
+    <string name="printNota">Print Nota</string>
 </resources>

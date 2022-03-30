@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizLutfiAldriPermana">
         <activity
+            android:name=".activity_tampilan"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

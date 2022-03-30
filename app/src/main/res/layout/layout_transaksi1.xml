@@ -5,22 +5,25 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <EditText
         android:id="@+id/etNamaPelanggan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/NamaPelanggan"
         android:importantForAutofill="no"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp" />
 
-    <EditText
-        android:layout_marginTop="10dp"
+    tv<EditText
         android:id="@+id/etAlamatPelanggan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:hint="@string/AlamatPelanggan"
         android:importantForAutofill="no"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp" />
     <RadioGroup
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
@@ -39,6 +42,7 @@
             android:layout_height="wrap_content"
             android:text="@string/pria"/>
         <RadioButton
+            android:layout_marginStart="20dp"
             android:id="@+id/rbPerempuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,10 +108,11 @@
         android:id="@+id/etJumlahBarang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:hint="@string/jumlah_barang"
         android:importantForAutofill="no"
-        android:layout_marginTop="10dp"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -116,7 +121,8 @@
             android:id="@+id/btnProses"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="@string/prosees" />
+            android:text="@string/proses"
+            android:onClick="btnProses"/>
         <Button
             android:layout_marginStart="20dp"
             android:id="@+id/btnCancel"
@@ -124,9 +130,4 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
-
-
-
-
-
 </LinearLayout>
